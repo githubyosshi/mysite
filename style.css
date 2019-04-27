@@ -64,20 +64,38 @@ p {
 }
 
   .post {
-
+    margin-bottom: 30px;
   }
 
     .post-header {
-
+      margin-bottom: 15px;
     }
 
       .post-header h2 {
-
+        font-size: 16px;
+        font-weight: bold;
       }
 
       .post-meta {
-        
+        font-size: 12px;
+        padding: 7px 0;
+        color: #555;
       }
+
+    .post-content {
+      overflow: hidden;
+    }
+
+      .post-image {
+        float: left;
+        width: 115px;
+      }
+
+      .post-body {
+        margin-left: 115px;
+      }
+
+
 
 /* sidebar */
 
@@ -85,6 +103,14 @@ p {
   float: right;
   width: 150px;
 }
+
+  .widget h3 {
+    font-weight: bold;
+  }
+
+  .widget li {
+    line-height: 1.8;
+  }
 
 /* footer */
 
